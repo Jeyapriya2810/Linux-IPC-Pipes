@@ -86,7 +86,7 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 ## OUTPUT
-![Pipe Output](image/pipe.png)
+![FIFO Output](image/fifo.png)
 
 ## PROGRAM
 
