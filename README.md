@@ -1,7 +1,6 @@
 # Linux-IPC--Pipes
 Linux-IPC-Pipes
 
-
 # Ex03-Linux IPC - Pipes
 
 # AIM:
@@ -24,9 +23,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-```
-#include<stdio.h>
-#include<stdlib.h>
+```#include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
 #include<string.h> 
@@ -85,10 +82,13 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 
 
 
-## OUTPUT
-![Pipe Output](image/pipe.png)
 
-## PROGRAM
+## OUTPUT
+![Screenshot 2025-04-30 113255](https://github.com/user-attachments/assets/00d6ad8d-db24-46d5-bfb3-e34bc55a508f)
+
+
+
+
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 ```
@@ -107,8 +107,10 @@ exit(EXIT_SUCCESS);
 
 
 
+
 ## OUTPUT
-![FIFO Output](image/fifo.png)
+![Screenshot 2025-04-30 113452](https://github.com/user-attachments/assets/5064a21f-c610-4f77-a8be-78fe11ecc55d)
+
 
 # RESULT:
 The program is executed successfully.
